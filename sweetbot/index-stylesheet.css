@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+@import "simplegrid.css";
+
+.logo {
+	height: 60%;
+	width: 60%;
+	margin: -10px;
+}
