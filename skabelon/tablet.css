@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Logo og NAV skal op ved siden af hinanden nu */
+body {
+	text-align: center;
+}
+.logo {
+	margin: 0;
+	margin-left: 0;
+	width: 300px;
+}
+
+ .hotbot,.portfolio,.webudvikling,.sikkerhed,.branding {
+
+}
+ul {
+	text-align: center;
+	display: inline-block;
+	list-style-type: none;
+	outline: 1px solid black;
+	left: 5%;
+	width: 600px;
+	height: 80px;
+	padding-top: 30px;
+}
+li {
+	display: inline;
+	width: 25%;
+	outline: 1px solid red;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+div {
+	outline: 1px solid green;
+}
+.listenav {
+	position: absolute;
+	left: 300px;
+}
+.slogan {
+	width: 100%;
+}
+.nyheder {
+	width: 100%;
+}
+.footer {
+	width: 100%;
+}

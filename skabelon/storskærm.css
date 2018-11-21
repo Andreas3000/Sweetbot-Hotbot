@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+.logo {
+	margin: 0;
+	margin-left: 0;
+	width: 300px;
+}
+.listenav {
+	position: absolute;
+	left: 400px;
+}
+ul {
+	text-align: center;
+	display: inline-block;
+	list-style-type: none;
+	outline: 1px solid black;
+	left: 5%;
+	width: 900px;
+	height: 80px;
+	padding-top: 30px;
+}
+li {
+	display: inline;
+	width: 25%;
+	outline: 1px solid red;
+	margin-left: 10px;
+	margin-right: 10px;
+}
