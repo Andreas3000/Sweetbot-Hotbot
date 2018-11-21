@@ -60,7 +60,12 @@ div {
 	background: #ddd;
 }
 ul {
-	width: 800px;
+	padding-top: 10px;
+	height: 250px;
+	width: 333px;
+	display: block;
+	margin: 0 auto;
+
 }
 li {
 	height: 50px;
@@ -70,28 +75,57 @@ li {
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-.navbar {
-	width: 30%;
-	margin-top: 20px;
-	height: 50px;
-	outline: 1px solid black;
-}
 .slogan {
 	width: 100%;
 	height: 200px;
 	background: black;
 }
-h1, p {
+h1, h2, li{
 	text-align: center;
 }
 h1 {
-	text-align: center;
+	padding: 30px;
 	color: white;
-
+	font-size: 50px;
+}
+h2 {
+	font-size: 30px;
+	padding-bottom: 10px;
 }
 .nyheder {
 	height: 800px;
 }
 footer {
+	margin-top: 50px;
 	height: 100px;
+}
+.hotbot {
+	width: 100%;
+}
+.hotbotoverskrift {
+	padding-top: 10px;
+}
+.hotbotlogo {
+	display: block;
+	margin: 0 auto;
+}
+.logo {
+	width: 400px;
+}
+
+.hotbottekst {
+	padding-top: 20px;
+	line-height: 150%;
+}
+.erhverv {
+	margin-top: 30px;
+	margin-bottom: 15px;
+	text-align: center;
+	font-size: 25px;
+}
+.privat {
+	padding-top: 30px;
+	margin-bottom: 15px;
+	text-align: center;
+	font-size: 25px;
 }
