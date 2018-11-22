@@ -1,7 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-/*Logo og NAV skal op ved siden af hinanden nu */
 body {
 	text-align: center;
 }
@@ -9,10 +8,6 @@ body {
 	margin: 0;
 	margin-left: 0;
 	width: 300px;
-}
-
- .hotbot,.portfolio,.webudvikling,.sikkerhed,.branding {
-
 }
 ul {
 	text-align: center;
@@ -31,6 +26,9 @@ li {
 }
 div {
 }
+h1 {
+	padding-top: 80px;
+}
 .listenav {
 	position: absolute;
 	left: 300px;
@@ -40,6 +38,7 @@ div {
 }
 .nyheder {
 	width: 100%;
+	padding-top: 30px;
 }
 .footer {
 	width: 100%;
@@ -50,7 +49,6 @@ div {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 50px;
-	outline: 1px solid black;
 }
 .hotbottekst {
 	text-align: left;
@@ -60,15 +58,14 @@ div {
 	padding-top: 50px;
 }
 .erhverv {
-	outline: 1px solid black;
 	width: 250px;
 	height: 50px;
 	margin-top: 50px;
 	margin-left: 20px;
 	padding-top: 25px;
+	display: inline-block;
 }
 .privat {
-	outline: 1px solid black;
 	width: 250px;
 	height: 50px;
 	margin-top: 50px;
@@ -77,14 +74,77 @@ div {
 	display: inline-block;
 }
 .erhvervdiv {
-	outline: 1px solid black;
-	width: 300px;
+	width: 400px;
 	float: left;
 	margin-bottom: 50px;
 }
 .privatdiv {
-	outline: 1px solid black;
 	width: 400px;
 	float: right;
 	margin-bottom: 50px;
 }
+.ikoner {
+}
+.logoer img {
+	width: 300px;
+	height: 300px;
+	outline: 1px solid #ddd;
+	margin: 20px;
+}
+.hotbottekst {
+	padding: 10px;
+}
+.hotbotlogo {
+	margin-bottom: 20px;
+}
+.hotbotoverskrift {
+	margin: 10px;
+}
+.ds {
+	margin: 20px;
+	margin-bottom: 20px;
+}
+.erhvervdiv p {
+	width: 250px;
+	padding-bottom: 100px;
+	margin-top: 5px;
+	padding-top: 25px;
+	display: inline-block;
+	text-align: left;
+}
+.privatdiv p {
+	width: 250px;
+	padding-bottom: 100px;
+	margin-top: 5px;
+	padding-top: 25px;
+	display: inline-block;
+	text-align: left;
+}
+.digitalsikkerhed {
+}
+.asgersdiv {
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.asgersdiv2 {
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.nikolinesdiv {
+	width: 400px;
+	float: left;
+	margin-left: 200px;
+}
+.nikolinesdiv2 {
+	width: 400px;
+	float: right;
+	margin-right: 200px;
+}
+
+
+
+
+
+

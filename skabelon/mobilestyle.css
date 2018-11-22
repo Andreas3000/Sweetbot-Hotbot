@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Lato');
 /* CSS Document */
 
 /* Browser/CSS reset */
@@ -57,7 +58,6 @@ body {
 }
 
 div {
-	background: #ddd;
 }
 ul {
 	padding-top: 10px;
@@ -65,10 +65,12 @@ ul {
 	width: 333px;
 	display: block;
 	margin: 0 auto;
+	
 
 }
 li {
 	height: 50px;
+	text-decoration: none;
 }
 .container {
 	display: flex;
@@ -79,6 +81,7 @@ li {
 	width: 100%;
 	height: 200px;
 	background: black;
+	
 }
 h1, h2, li{
 	text-align: center;
@@ -86,18 +89,20 @@ h1, h2, li{
 h1 {
 	padding: 30px;
 	color: white;
-	font-size: 50px;
+	font-size: 40px;
+	padding-top: 50px;
 }
 h2 {
 	font-size: 30px;
 	padding-bottom: 10px;
 }
 .nyheder {
-	height: 800px;
+	height: 400px;
+	padding-top: 20px;
 }
 footer {
 	margin-top: 50px;
-	height: 100px;
+	height: 30px;
 }
 .hotbot {
 	width: 100%;
@@ -128,4 +133,101 @@ footer {
 	margin-bottom: 15px;
 	text-align: center;
 	font-size: 25px;
+}
+.logoer .webskabeloner {
+	 margin: 15px 15px ;
+}
+
+.logoer img {
+ 	height: auto;
+	width: 90%;
+	padding: 18px;
+	transition: 1s;
+}
+
+
+.logoer img:hover { 
+	filter: grayscale(0%);
+	transform: scale(1.08);
+	}
+
+.webskabeloner img {
+ 	height: auto;
+	width: 90%;
+	padding: 18px;
+	transition: 1s;
+}
+.facebook {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.insta  {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.linkedin  {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.footerul {
+	height: 200px;
+	width: 100%;
+}
+.footerlogo {
+	height: 200px;
+	width: 100%;
+	
+}
+.webh2 {
+	padding-top: 30px;
+	
+}
+.logoer {
+	margin-top: 75px;
+}
+.hotbotdiv {
+	margin-left: 20px;
+	margin-right: 10px;
+}
+.footerikkeport {
+	width: 100%;
+	height: 100px;
+}
+.ds {
+	margin: 20px;
+	margin-bottom: 150px;
+}
+.erhvervdiv p{
+	margin: 20px;
+}
+.privatdiv p{
+	margin: 20px;
+}
+.overskrift {
+	margin-top: 30px;
+}
+.overskrift2 {
+	margin-top: 30px;
+}
+.broedtekst {
+	line-height: 150%;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: left;
+}
+.branding {
+	magin-left: auto;
+	margin-right: auto;
+}
+.listenav a{
+	text-decoration: none;
+	color: black;
+}
+.listenav a:hover{
+	color: #df9b67;
+}
+.morten {
+	margin-left: 30px;
+	font-style: italic;
+	color: #df9b67;
 }
