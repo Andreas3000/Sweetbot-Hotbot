@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("simplegrid.css");
+
+body {
+margin: 0px;
+padding: 0px;
+  border: 0px;
+}
+p, h1 {
+	text-align: center;
+}
+div {
+	margin-right: 20px;
+	background: #ddd;
+}
+.contentline1 {
+	height: 50px;
+	outline:1px solid black;
+	position: fixed;
+}
+.contentline2 {
+	margin-top: 70px;
+	height: 200px;
+	background: #2E2D2D;
+	outline:1px solid black;
+}
+.contentline3 {
+	height: 400px;
+	outline:1px solid black;
+}
+.contentline4 {
+	height: 250px;
+	outline:1px solid black;
+}
+.branding {
+	margin-left: 115px;
+}

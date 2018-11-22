@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Logo og NAV skal op ved siden af hinanden nu */
+body {
+	text-align: center;
+}
+.logo {
+	margin: 0;
+	margin-left: 0;
+	width: 300px;
+}
+
+ .hotbot,.portfolio,.webudvikling,.sikkerhed,.branding {
+
+}
+ul {
+	text-align: center;
+	display: inline-block;
+	list-style-type: none;
+	left: 5%;
+	width: 600px;
+	height: 80px;
+	padding-top: 30px;
+}
+li {
+	display: inline;
+	width: 25%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+div {
+}
+.listenav {
+	position: absolute;
+	left: 300px;
+}
+.slogan {
+	width: 100%;
+}
+.nyheder {
+	width: 100%;
+}
+.footer {
+	width: 100%;
+	height: 200px;
+}
+.hotbotdiv {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	outline: 1px solid black;
+}
+.hotbottekst {
+	text-align: left;
+}
+.footertekst {
+	text-align: center;
+	padding-top: 50px;
+}
+.erhverv {
+	outline: 1px solid black;
+	width: 250px;
+	height: 50px;
+	margin-top: 50px;
+	margin-left: 20px;
+	padding-top: 25px;
+}
+.privat {
+	outline: 1px solid black;
+	width: 250px;
+	height: 50px;
+	margin-top: 50px;
+	margin-left: 20px;
+	padding-top: 25px;
+	display: inline-block;
+}
+.erhvervdiv {
+	outline: 1px solid black;
+	width: 300px;
+	float: left;
+	margin-bottom: 50px;
+}
+.privatdiv {
+	outline: 1px solid black;
+	width: 400px;
+	float: right;
+	margin-bottom: 50px;
+}
